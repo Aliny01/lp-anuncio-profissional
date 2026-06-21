@@ -1,213 +1,176 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Compra aprovada! — Como Anunciar no Instagram de Forma Profissional</title>
-<meta name="robots" content="noindex">
-<meta name="theme-color" content="#0f172a">
-<link rel="canonical" href="https://www.anuncioprofissional.com.br/obrigado">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23feda75'/%3E%3Cstop offset='25%25' stop-color='%23fa7e1e'/%3E%3Cstop offset='50%25' stop-color='%23d62976'/%3E%3Cstop offset='75%25' stop-color='%23962fbf'/%3E%3Cstop offset='100%25' stop-color='%234f5bd5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Crect x='16' y='16' width='32' height='32' rx='9' stroke='white' stroke-width='3.2' fill='none'/%3E%3Ccircle cx='32' cy='32' r='8.5' stroke='white' stroke-width='3.2' fill='none'/%3E%3Ccircle cx='42' cy='22' r='2.4' fill='white'/%3E%3C/svg%3E">
-<style>
-  :root {
-    --bg: #0f172a;
-    --surface: #1e293b;
-    --border: #334155;
-    --royal: #1a56db;
-    --royal-bright: #2563eb;
-    --purple: #8b5cf6;
-    --ink: #f1f5f9;
-    --ink-muted: #94a3b8;
-    --success: #22c55e;
-    --gradient: linear-gradient(135deg, var(--royal) 0%, var(--purple) 100%);
-  }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compra confirmada — Anúncio Profissional</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-  * { box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0a0a0f;
+      color: #f0f0f5;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.25rem;
+    }
 
-  body {
-    margin: 0;
-    min-height: 100vh;
-    background:
-      radial-gradient(circle at 15% 0%, rgba(26, 86, 219, 0.25), transparent 45%),
-      radial-gradient(circle at 85% 20%, rgba(139, 92, 246, 0.2), transparent 45%),
-      var(--bg);
-    color: var(--ink);
-    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
-    line-height: 1.7;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 24px;
-  }
+    .card {
+      background: #13131a;
+      border: 1px solid #2a2a3a;
+      border-radius: 20px;
+      padding: 3rem 2.5rem;
+      max-width: 480px;
+      width: 100%;
+      text-align: center;
+    }
 
-  a { text-decoration: none; }
+    .check-wrap {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #7c3aed, #a855f7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 2rem;
+    }
 
-  .card {
-    width: 100%;
-    max-width: 560px;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 24px;
-    padding: 48px 36px;
-    text-align: center;
-    box-shadow: 0 24px 70px -24px rgba(26, 86, 219, 0.45);
-  }
+    .check-wrap svg {
+      width: 36px;
+      height: 36px;
+      stroke: #fff;
+      stroke-width: 2.5;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
 
-  .check {
-    width: 76px;
-    height: 76px;
-    margin: 0 auto 24px;
-    border-radius: 50%;
-    background: rgba(34, 197, 94, 0.15);
-    border: 2px solid rgba(34, 197, 94, 0.4);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 36px;
-  }
+    h1 {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: #ffffff;
+      margin-bottom: 0.75rem;
+      line-height: 1.3;
+    }
 
-  h1 {
-    margin: 0;
-    font-size: clamp(24px, 4vw, 30px);
-    font-weight: 800;
-    letter-spacing: -0.5px;
-  }
+    .subtitle {
+      font-size: 1rem;
+      color: #9090a8;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
 
-  .subtitle {
-    margin-top: 12px;
-    color: var(--ink-muted);
-    font-size: 15.5px;
-  }
+    .highlight {
+      color: #a855f7;
+      font-weight: 500;
+    }
 
-  .steps {
-    margin: 32px 0 0;
-    display: grid;
-    gap: 12px;
-    text-align: left;
-  }
+    .steps {
+      background: #0d0d14;
+      border: 1px solid #1e1e2e;
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      text-align: left;
+      margin-bottom: 2rem;
+    }
 
-  .step {
-    display: flex;
-    align-items: flex-start;
-    gap: 14px;
-    background: rgba(255,255,255,0.03);
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    padding: 16px 18px;
-  }
+    .step {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 0.6rem 0;
+    }
 
-  .step-num {
-    flex-shrink: 0;
-    width: 26px;
-    height: 26px;
-    border-radius: 50%;
-    background: var(--gradient);
-    color: #fff;
-    font-size: 13px;
-    font-weight: 800;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+    .step + .step {
+      border-top: 1px solid #1e1e2e;
+    }
 
-  .step p {
-    margin: 0;
-    font-size: 14.5px;
-    color: var(--ink-muted);
-  }
+    .step-num {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: #1e1230;
+      border: 1px solid #7c3aed;
+      color: #a855f7;
+      font-size: 12px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
 
-  .step strong { color: var(--ink); }
+    .step-text {
+      font-size: 0.9rem;
+      color: #c0c0d0;
+      line-height: 1.5;
+    }
 
-  .spam-note {
-    margin-top: 18px;
-    background: rgba(251, 191, 36, 0.1);
-    border: 1px solid rgba(251, 191, 36, 0.3);
-    border-radius: 12px;
-    padding: 14px 18px;
-    font-size: 13.5px;
-    color: #fcd34d;
-    text-align: left;
-  }
+    .step-text strong {
+      color: #e8e8f0;
+      font-weight: 500;
+    }
 
-  .btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    width: 100%;
-    margin-top: 28px;
-    padding: 16px 28px;
-    border-radius: 14px;
-    font-weight: 700;
-    font-size: 15.5px;
-    color: #fff;
-    background: linear-gradient(180deg, var(--royal-bright), var(--royal));
-    box-shadow: 0 10px 30px -8px rgba(26, 86, 219, 0.6);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
+    .spam-notice {
+      font-size: 0.82rem;
+      color: #6060780;
+      background: #1a1408;
+      border: 1px solid #3a2e10;
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      color: #b8a060;
+      line-height: 1.5;
+    }
 
-  .btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 14px 36px -8px rgba(37, 99, 235, 0.75);
-  }
+    .spam-notice strong {
+      color: #d4b870;
+    }
 
-  .support {
-    margin-top: 20px;
-    font-size: 13.5px;
-    color: var(--ink-muted);
-  }
-
-  .support a {
-    color: #93c5fd;
-    font-weight: 600;
-  }
-
-  footer {
-    margin-top: 28px;
-    font-size: 12px;
-    color: var(--ink-muted);
-  }
-</style>
+    @media (max-width: 480px) {
+      .card { padding: 2rem 1.5rem; }
+      h1 { font-size: 1.35rem; }
+    }
+  </style>
 </head>
 <body>
-
   <div class="card">
-    <div class="check">🎉</div>
+    <div class="check-wrap">
+      <svg viewBox="0 0 24 24">
+        <polyline points="20 6 9 17 4 12"></polyline>
+      </svg>
+    </div>
 
-    <h1>Compra aprovada com sucesso!</h1>
+    <h1>Compra confirmada!</h1>
     <p class="subtitle">
-      Seu acesso ao Guia Interativo de Anúncios no Instagram já foi liberado.
+      Bem-vindo ao <span class="highlight">Anúncio Profissional</span>.<br/>
+      Seu acesso está sendo preparado agora.
     </p>
 
     <div class="steps">
       <div class="step">
-        <span class="step-num">1</span>
-        <p><strong>Verifique seu e-mail</strong> — enviamos seu login e senha temporária para o e-mail usado na compra.</p>
+        <div class="step-num">1</div>
+        <p class="step-text">Você receberá um <strong>e-mail com seu login e senha</strong> em alguns minutos.</p>
       </div>
       <div class="step">
-        <span class="step-num">2</span>
-        <p><strong>Acesse a plataforma</strong> com os dados recebidos e, por segurança, troque sua senha no primeiro login.</p>
+        <div class="step-num">2</div>
+        <p class="step-text">Acesse <strong>www.anuncioprofissional.com.br</strong> e faça login com as credenciais recebidas.</p>
       </div>
       <div class="step">
-        <span class="step-num">3</span>
-        <p><strong>Siga o passo a passo</strong> — o guia já te mostra exatamente o que fazer com base na sua situação atual.</p>
+        <div class="step-num">3</div>
+        <p class="step-text">Explore o guia e comece a anunciar no Instagram de forma profissional.</p>
       </div>
     </div>
 
-    <div class="spam-note">
-      ⚠️ Não encontrou o e-mail? Confira a caixa de <strong>spam ou lixo eletrônico</strong> — às vezes ele cai lá no primeiro envio.
-    </div>
-
-    <!-- Atualizar href com a URL real de login da plataforma após o deploy -->
-    <a href="https://guia-interativo-ads.vercel.app/login" class="btn">Acessar a Plataforma →</a>
-
-    <p class="support">
-      Ficou com alguma dúvida? Fale com o suporte no
-      <a href="https://wa.me/5565996194719?text=Acabei%20de%20comprar%20o%20Guia%20de%20An%C3%BAncios%20no%20Instagram%20e%20preciso%20de%20ajuda" target="_blank" rel="noopener">WhatsApp</a>.
+    <p class="spam-notice">
+      <strong>Não encontrou o e-mail?</strong> Verifique a pasta de spam ou lixo eletrônico. O remetente será <strong>suporte@anuncioprofissional.com.br</strong>.
     </p>
-
-    <footer>anuncioprofissional.com.br · Pagamento processado pela Hotmart</footer>
   </div>
-
 </body>
 </html>
